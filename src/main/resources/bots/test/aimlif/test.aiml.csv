@@ -1,0 +1,17 @@
+0,HELLO TASO,*,*,<random><li> Hello! </li><li> Hello Tester </li><li> Hi! Nice to meet you! </li></random>,test.aiml
+0,I am *,*,*, Hi <set name = "username"><star/>! </set>,test.aiml
+0,Good Bye,*,*, Bye <get name = "username"/> Thanks for the conversation!,test.aiml
+0,REGRESSION,*,*,Select P1 P2 P3 Test scripts,test.aiml
+0,SANITY,*,*,Select P1 Test scripts,test.aiml
+0,FUNCTIONAL,*,*,Select P1 P2 Test scripts,test.aiml
+0,END2END,*,*,Select P1 Test scripts,test.aiml
+0,PR 50,*,*,Rerun Test,test.aiml
+0,PR 60,*,*,Rerun Test,test.aiml
+0,PR 70,*,*,Rerun Failures,test.aiml
+0,PR 80,*,*,Acceptable,test.aiml
+0,PR 90,*,*,Report the Results,test.aiml
+0,PASS RATE *,*,*,<srai>PR <star/></srai>,test.aiml
+0,MAC OS,*,*,Select setting for Mac - User - XXX | Run - MacOS package,test.aiml
+0,WIN OS,*,*,Select setting for Windows - User - YYYY | Run - Windows OS Package,test.aiml
+0,CHROME,*,*,"Chrome setting ___ XXX | YYYY",test.aiml
+0,FIREFOX,*,*,"Firefox setting ___ XXX | ZZZZ",test.aiml

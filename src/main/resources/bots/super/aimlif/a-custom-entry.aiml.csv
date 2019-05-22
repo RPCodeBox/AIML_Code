@@ -1,0 +1,16 @@
+0,WHAT IS JAVA,*,*,Java is a programming language.,a-custom-entry.aiml
+0,WHAT IS CHAT BOT,*,*,Chatbot is a computer program designed to simulate conversation with human users#Comma especially over the Internet.,a-custom-entry.aiml
+0,WHAT IS INDIA,*,*,India wonderful country home to largest democracy,a-custom-entry.aiml
+0,REGRESSION,*,*,Select P1 P2 P3 Test scripts,a-custom-entry.aiml
+0,SANITY,*,*,Select P1 Test scripts,a-custom-entry.aiml
+0,FUNCTIONAL,*,*,Select P1 P2 Test scripts,a-custom-entry.aiml
+0,END2END,*,*,Select P1 Test scripts,a-custom-entry.aiml
+0,PR 50,*,*,Rerun Test,a-custom-entry.aiml
+0,PR 60,*,*,Rerun Test,a-custom-entry.aiml
+0,PR 70,*,*,Rerun Failures,a-custom-entry.aiml
+0,PR 80,*,*,Acceptable,a-custom-entry.aiml
+0,PR 90,*,*,Report the Results,a-custom-entry.aiml
+0,MAC OS,*,*,Select setting for Mac - User - XXX | Run - OS package,a-custom-entry.aiml
+0,WIN OS,*,*,Select setting for Windows - User - YYYY | Run - OS Package,a-custom-entry.aiml
+0,CHROME,*,*,"Chrome setting ___ XXX | YYYY",a-custom-entry.aiml
+0,FIREFOX,*,*,"Firefox setting ___ XXX | ZZZZ",a-custom-entry.aiml

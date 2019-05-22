@@ -1,0 +1,80 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<aiml version="1.0.1" encoding = "UTF-8"?>
+	<!--Greetings-->
+	<category>
+		<pattern>Hello TASO</pattern>
+		<template><random>
+            <li> Hello! </li>
+			<li> Hello Tester </li>
+            <li> Hi! Nice to meet you! </li>
+         </random></template>
+	</category>
+	<category>
+		<pattern>I am *</pattern>
+		<template>Hi <set name = "username"><star/>! </set></template>  
+	</category>
+	<category>
+		<pattern>Good Bye</pattern>
+		<template>Bye <get name = "username"/>, Thanks for the conversation!</template>  
+	</category>
+	<!--Test Requirements -->	
+	<category>
+		<pattern>REGRESSION</pattern>
+		<template>Select P1 P2 P3 Test scripts</template>
+	</category>
+	<category>
+		<pattern>SANITY</pattern>
+		<template>Select P1 Test scripts</template>
+	</category>
+	<category>
+		<pattern>FUNCTIONAL</pattern>
+		<template>Select P1 P2 Test scripts</template>
+	</category>
+	<category>
+		<pattern>END2END</pattern>
+		<template>Select P1 Test scripts</template>
+	</category>
+	<!--Test Results -->	
+	<category>
+		<pattern>PR 50</pattern>
+		<template>Rerun Test</template>
+	</category>
+	<category>
+		<pattern>PR 60</pattern>
+		<template>Rerun Test</template>
+	</category>
+	<category>
+		<pattern>PR 70</pattern>
+		<template>Rerun Failures</template>
+	</category>
+	<category>
+		<pattern>PR 80</pattern>
+		<template>Acceptable</template>
+	</category>
+	<category>
+		<pattern>PR 90</pattern>
+		<template>Report the Results</template>
+	</category>
+	<category>
+		<pattern>PASS RATE *</pattern>
+		<template><srai>PR <star/></srai></template>
+	</category>
+	<!--Test Environment -->	
+	<category>
+		<pattern>MAC OS</pattern>
+		<template>Select setting for Mac - User - XXX | Run - MacOS package</template>
+	</category>
+	<category>
+		<pattern>WIN OS</pattern>
+		<template>Select setting for Windows - User - YYYY | Run - Windows OS Package</template>
+	</category>
+	<!--Test Settings -->
+	<category>
+		<pattern>CHROME</pattern>
+		<template>Chrome setting ___ XXX | YYYY</template>
+	</category>
+	<category>
+		<pattern>FIREFOX</pattern>
+		<template>Firefox setting ___ XXX | ZZZZ</template>
+	</category>
+</aiml>
